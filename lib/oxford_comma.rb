@@ -5,6 +5,7 @@ def oxford_comma(array)
     array.pop
     array.join(", ")
     array.insert(-1, "and starfruit")
+    return array.join
   else 
     return array.join(", ")
   end
